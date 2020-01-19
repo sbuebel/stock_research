@@ -29,6 +29,7 @@ def data_to_csv(ticker, dire):
 
 	# make the directory if it doesn't exist
 	if os.path.isdir(dire) == False:
+		os.mkdir(ticker)
 		os.mkdir(dire)
 
 	ts = TimeSeries(key=key, output_format='pandas')
