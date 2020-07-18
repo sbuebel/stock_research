@@ -593,13 +593,14 @@ class SmartMaximizer:
 
 if __name__ == "__main__":
 
-	TICKER = 'AMD'
+	TICKER = 'LK'
+	RUN_NUMBER = 1
 
 	# helper function to read the data from the API
-	# data_to_csv(TICKER, TICKER+'/run1/')
+	data_to_csv(TICKER, TICKER+'/run'+str(RUN_NUMBER)+'/')
 
 	# # 10 minutes to see how high the scores will go
-	sam = SmartMaximizer(TICKER, 'run1')
+	sam = SmartMaximizer(TICKER, 'run'+str(RUN_NUMBER))
 
 	# we use this to get an initial idea, then gradient descent for optimization
 	# sam.brute_force_maximizer()

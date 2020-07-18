@@ -1,0 +1,17 @@
+TODO:
+
+1. 		Cancel orders if they're open for certain amount of time
+			or at least incentivize shorter holding time...
+1.5 	Also, try to hold fewer shares and trend back to low holdings
+
+*** 2. Consider changing PID limits based on relative volume...
+
+3. Consider buying/selling more shared depending on signal strength
+
+4. Profit oriented trading... share cap, capital util cap
+
+
+Trading Strat:
+
+1. Hold onto long term dividend stocks
+2. Sell Put options for TSLA... can make bank, don't see it dropping

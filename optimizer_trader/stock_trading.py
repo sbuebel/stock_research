@@ -24,7 +24,7 @@ def combine_dicts(a, b, op=operator.add):
 
 # function to read data from API and store it locally in CSV
 def data_to_csv(ticker, dire):
-	# Your key here - keep it
+	# Your key here - keep it - not an issue, free
 	key = '6LGG0QGAGBROB2M6'
 
 	# make the directory if it doesn't exist
