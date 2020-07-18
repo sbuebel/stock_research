@@ -9,9 +9,3 @@ TODO:
 3. Consider buying/selling more shared depending on signal strength
 
 4. Profit oriented trading... share cap, capital util cap
-
-
-Trading Strat:
-
-1. Hold onto long term dividend stocks
-2. Sell Put options for TSLA... can make bank, don't see it dropping
