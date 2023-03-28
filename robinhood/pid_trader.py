@@ -4,6 +4,7 @@ import robin_stocks as r
 import numpy as np
 import zmq
 
+
 class TraderPID:
 
 	###########################################################################
@@ -148,7 +149,6 @@ class TraderPID:
 			pid_term -= float(self.shares / self.SHARE_LIMIT)
 			pid_term *= self.get_rel_volume()
 
-
 			# update for next time - for 'd' term
 			last_price = cur_price
 
@@ -229,7 +229,6 @@ class TraderPID:
 					# let us know if it was placed
 					print("(cold) [", self.loop_count, "] Order Placed: [ buy ] Q ", end='')
 					print(trade_amount, "$", price_target)
-					
 
 			# add an entry to the full data group so we can keep
 			# making predictions
